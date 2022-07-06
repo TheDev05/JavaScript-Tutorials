@@ -9,6 +9,7 @@ const temp = num.map((val) => { return (val); });
 console.log(temp);
 
 const temp2 = num.map((val, index) => { return (index); });
+
 console.log(temp2);
 
 const temp3 = num.map(() => { console.log("Now This retuens undefined"); });

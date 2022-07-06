@@ -6,7 +6,7 @@ const balls = {
     "radius": 20,
 };
 
-const inox = (obj) => {
+const inox = (balls) => {
     console.log(balls.colour);
     console.log(balls.radius);
 }

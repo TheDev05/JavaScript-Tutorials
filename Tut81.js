@@ -5,6 +5,8 @@
 
 // every function and objects has a built-in property, which is called its prototype. The prototype is itself an object.
 
+//IMP: ([[prototype]] === __proto__) vs(prototype)
+
 function Create(name1, name2, age1, age2) {
 
     const temp = Object.create(Create.prototype);
@@ -27,4 +29,4 @@ const user = Create("Ankit", "Yash", 20, 20);
 console.log(user);
 console.log(Create.prototype);
 console.log(user.__proto__);
-console.log(user.about);
+console.log(user.about());

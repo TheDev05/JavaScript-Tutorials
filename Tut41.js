@@ -10,8 +10,8 @@ const Person = {
 const student = Person.Name;
 const student_Gender = Person.Gender;
 
-console.log(student);
-console.log(student_Gender);
+// console.log(student);
+// console.log(student_Gender);
 
 const { Name: text1, Gender: text2 } = Person;
 const { Name, Gender, ...reseProps } = Person;
