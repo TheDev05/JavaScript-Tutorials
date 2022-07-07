@@ -8,5 +8,5 @@ console.log(num);
 num.splice(0, 0, 9);
 console.log(num);
 
-num.splice(0, 3, 0);
+num.splice(0, 3);
 console.log(num);
