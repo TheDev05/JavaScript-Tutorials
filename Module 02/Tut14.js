@@ -2,6 +2,8 @@
 
 // InnerHTML: All those lines from starting tag to closing tag, of a particular tag name.
 
+// innerText--> Only extract Text, not anything else
+
 /* <div>
     InnerHTML of div
     InnerHTML of div
